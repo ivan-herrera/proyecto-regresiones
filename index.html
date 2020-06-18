@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;0,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <div class="logo">
+                <h1>Calculadora de Ajustes</h1>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="" class="item-activo">Inicio</a>
+                <a href="src/view/contactanos.html">Acerca de</a>
+            </div>
+        </header>
+
+        <section class="grid" id="grid">
+            <div class="item" data-categoria="" data-etiquetas="">
+                <div class="item-contenido">
+                    <img src="assets/img/comparacion.jpg" onclick="window.open('src/view/method/Comparacion.html');" alt="">
+                    <h3>Comparación de ajustes</h3>
+                </div>
+            </div>
+            <div class="item" data-categoria="" data-etiquetas="Ajuste ajuste LINEAL Lineal lineal">
+                <div class="item-contenido">
+                    <img src="assets/img/lineal.jpg" onclick="window.open('src/view/method/lineal.html');" alt="">
+                    <h3>Ajuste Lineal</h3>
+                </div>
+            </div>
+            <div class="item" data-etiquetas="Ajuste ajuste Exponecial exponecial ">
+                <div class="item-contenido">
+                    <img src="assets/img/exponencial.jpg" onclick="window.open('src/view/method/exponencial.html');"
+                        alt="">
+                    <h3>Ajuste Exponencial</h3>
+                </div>
+            </div>
+            <div class="item" data-etiquetas="Ajuste ajuste Polinomica polinomica polinómica">
+                <div class="item-contenido">
+                    <img src="assets/img/polinomica.jpg" onclick="window.open('src/view/method/polinomica.html');" alt="">
+                    <h3>Ajuste Polinomica</h3>
+                </div>
+            </div>
+            <div class="item" data-etiquetas="Ajuste ajuste Potencial potencial">
+                <div class="item-contenido">
+                    <img src="assets/img/potencial.jpg" onclick="window.open('src/view/method/potencial.html');" alt="">
+                    <h3>Ajuste Potencial</h3>
+                </div>
+            </div>
+            <div class="item" data-etiquetas="Ajuste ajuste Logaritmica logaritmica LOGARITMICA">
+                <div class="item-contenido">
+                    <img src="assets/img/logaritmico.jpg" onclick="window.open('src/view/method/logaritmica.html');"
+                        alt="">
+                    <h3>Ajuste Logaritmica</h3>
+                </div>
+            </div>
+            <div class="item" data-etiquetas="Ajuste ajuste Hiperólico hiperbólico hiperbolico HIPERBOLICO hiper">
+                <div class="item-contenido">
+                    <img src="assets/img/hiperbolico.jpg" onclick="window.open('src/view/method/hiperbolico.html');"
+                        alt="">
+                    <h3>Ajuste Hiperbólico</h3>
+                </div>
+            </div>
+            <div class="item" data-etiquetas="Ajuste ajuste media movil Media Movil móvil Móvil">
+                <div class="item-contenido">
+                    <img src="assets/img/image.jpg" onclick="window.open('src/view/method/media-movil.html');"
+                        alt="">
+                    <h3>Ajuste Media Móvil</h3>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>

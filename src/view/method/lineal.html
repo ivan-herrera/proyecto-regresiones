@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto | Ajuste Lineal</title>
+
+    <link rel="stylesheet" href="../../../assets/css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;0,700;1,900&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <div class="logo">
+                <h1>Método/<span style="color: #9b9b9b">Ajuste Lineal</span></h1>
+            </div>
+
+            <div class="categorias" id="categorias">
+                <a href="../../../index.html" class="item-activo">Inicio</a>
+                <a href="../contactanos.html">Contactanos</a>
+            </div>
+        </header>
+
+        <section class="wrapper">
+            <div class="valores">
+
+               <!--VISTA DE VALORES PARA R--> 
+                <div id="viewR">
+                    <h3>Resultados</h3>
+                    <p id="valueY"></p>
+                    <p id="valueR"></p>
+                    <p id="valueR2"></p>
+                </div>
+                <!--------------------------> 
+
+                <h3>Valores</h3>
+                <div class="value-item" id="contenedor">
+                    <div class="x_and_y" id="x_and_y">
+                        <input type="text" name="x" id="firstBoxX" placeholder="Value X">
+                    </div>
+                    <div class="x_and_y">
+                        <input type="text" name="y" id="firstBoxY" placeholder="Value Y">
+                    </div>
+
+                </div>
+                <div class="botones">
+                    <input type="button" onclick="addInput()" id="addInput" name="addInput" value="Agregar">
+                    <input type="button" onclick="pruebas()" value="Calcular">
+                </div>
+            </div>
+            <div class="grafico">
+                <h3>Grafica de Ajuste Lineal</h3>
+                <div>
+                    <canvas id="myChart" width="400" height="300"></canvas>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="../../../assets/js/index.js"></script>
+    <script src="../../logic/lineal.js"></script>
+</body>
+</html>
