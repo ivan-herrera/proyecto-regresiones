@@ -2,7 +2,7 @@
 Este es un proyecto sobre Ajuste de datos. El objetivo es que a partir de una serie de datos (x,y), el programa realice el ajuste de los datos con diferentes métodos.
 
 
-## Tecnologias ultilizadas
+#### Tecnologias ultilizadas
 Para el desarrollo de la web, utilice las siguientes tecnologias:
 
 -HTML y CSS
