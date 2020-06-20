@@ -1,5 +1,5 @@
 # Sitio Web de Graficas de Regresión 
-Este es un proyecto sobre Ajuste de datos. El objetivo es que a partir de una serie de datos (x,y), el programa realice el ajuste de los datos con diferentes métodos.
+Este es un proyecto sobre ajuste de datos. El objetivo del sitio web es que a partir de una serie de datos (x,y), el programa realice el ajuste de los datos de forma grafica dependiendo del métodos que el usuario elija. A día de hoy la web soporte los siguientes temas: Regresion lineal, logaritmica, polinomica, potencial, hiperbolica, exponencial y media movil.
 
 
 #### Tecnologias ultilizadas
